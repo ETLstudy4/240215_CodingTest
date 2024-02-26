@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-print(app)
+print("Hello World")
 
 @app.route("/")
 def index():
